@@ -12,5 +12,7 @@ CREATE TABLE products(
   PRIMARY KEY (id)
 );
 
+INSERT INTO products(product_name, department_name, price, quantity)
+VALUES ("Stormtrooper Armor", "home", 75.99, 20);
 
 
